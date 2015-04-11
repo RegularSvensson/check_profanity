@@ -4,7 +4,6 @@ import urllib
 def read_text():
 	quotes = open("/Users/eliasvensson/Udacity/full-stack/PFWP/check_profanity/movie_quotes.txt")
 	contents_of_file = quotes.read()
-	print(contents_of_file)
 	quotes.close()
 	check_profanity(contents_of_file)
 
