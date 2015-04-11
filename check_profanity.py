@@ -1,3 +1,5 @@
+import urllib
+
 #Read text from document
 def read_text():
 	quotes = open("/Users/eliasvensson/Udacity/full-stack/PFWP/check_profanity/movie_quotes.txt")
